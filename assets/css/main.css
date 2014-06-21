@@ -217,8 +217,8 @@ a:after {
 
 #footwrap {
 	background: #2f2f2f;
-	padding-top: 50px;
-	padding-bottom: 50px;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
 
 #footwrap p {
@@ -236,7 +236,7 @@ a:after {
 
 #footwrap i {
 	padding-right: 12px;
-	color: #CBFFFE;
+	color: white;
 }
 
 /* Copyright Wrap */
