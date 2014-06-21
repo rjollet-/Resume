@@ -14,6 +14,7 @@ http.createServer(function(request, response) {
     '.css':  "text/css",
     '.js':   "text/javascript",
     '.png': "image/png"
+    '.jpg' : "image/jpeg"
   };
 
   path.exists(filename, function(exists) {
