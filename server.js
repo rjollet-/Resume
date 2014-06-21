@@ -13,7 +13,7 @@ http.createServer(function(request, response) {
     '.html': "text/html",
     '.css':  "text/css",
     '.js':   "text/javascript",
-    '.png': "image/png"
+    '.png': "image/png",
     '.jpg' : "image/jpeg"
   };
 
