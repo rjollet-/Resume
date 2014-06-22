@@ -33,28 +33,35 @@
 
   <body data-spy="scroll" data-offset="0" data-target="#nav">
 
-	<div id="section-topbar">
-		<div id="topbar-inner">
-			<div class="container">
-				<div class="row">
-					<div class="dropdown">
-						<ul id="nav" class="nav">
-							<li class="menu-item"><a class="smoothScroll" href="#home" title="home"><i class="icon-home"></i></a></li>
-							<li class="menu-item"><a class="smoothScroll" href="#about" title="About"><i class="icon-user"></i></a></li>
-							<li class="menu-item"><a class="smoothScroll" href="#education" title="education"><i class="icon-file"></i></a></li>
-							<li class="menu-item"><a class="smoothScroll" href="#skills" title="skills"><i class="icon-tasks"></i></a></li>
-							<li class="menu-item"><a class="smoothScroll" href="#work" title="Works"><i class="icon-briefcase"></i></a></li>
-							<li class="menu-item"><a class="smoothScroll" href="#contact" title="Contact"><i class="icon-envelope"></i></a></li>
-						</ul><!--/ uL#nav -->
-					</div><!-- /.dropdown -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="/cv">RenoJdl</a>
+            </div>
 
-					<div class="clear"></div>
-				</div><!--/.row -->
-			</div><!--/.container -->
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="menu-item"><a class="smoothScroll" href="#home" title="home"><i class="icon-home"></i> Home</a></li>
+					<li class="menu-item"><a class="smoothScroll" href="#about" title="About"><i class="icon-user"></i> About</a></li>
+					<li class="menu-item"><a class="smoothScroll" href="#education" title="education"><i class="icon-file"></i> Education</a></li>
+					<li class="menu-item"><a class="smoothScroll" href="#skills" title="skills"><i class="icon-tasks"></i> Skill</a></li>
+					<li class="menu-item"><a class="smoothScroll" href="#work" title="Works"><i class="icon-briefcase"></i> Work</a></li>
+	            	<li class="menu-item"><a class="smoothScroll" href="#contact" title="Contact"><i class="icon-envelope"></i> Contact</a></li>
+	                <li><a href="/blogHome">Blog</a></li>
+	            </ul>
+            </div>
 
-			<div class="clear"></div>
-		</div><!--/ #topbar-inner -->
-	</div><!--/ #section-topbar -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
 	
 	<section id="home" name="home"></section>
 	<div id="headerwrap">
@@ -399,7 +406,7 @@
 	</div><!--/.container -->
 	
 
-
+	<footer>
 	<section id="contact" name="contact"></section>
 	<!--FOOTER DESCRIPTION -->
 	<div id="footwrap">
@@ -433,14 +440,9 @@
 			</div><!--/.row -->
 		</div><!--/.container -->
 	</div><!--/ #footer -->
-	
-	<div id="c">
-		<div class="container">
-			<p>Created by <a href="http://www.blacktie.co">BLACKTIE.CO</a></p>
+	</footer>
+
 		
-		</div>
-	</div>
-	
 
     <!-- Bootstrap core JavaScript
     ================================================== -->

@@ -154,7 +154,7 @@ a:after {
 /* Header Wrap */
 #headerwrap {
 	background: url("../images/header-bg.JPG") no-repeat center top;
-	margin-top: 60px;
+	margin-top: 30px;
 	padding-top:140px;
 	text-align:center;
 	background-attachment: relative;
@@ -206,8 +206,8 @@ a:after {
 
 #skillswrap {
 	background: DarkSlateGray;
-	padding-top: 60px;
-	padding-bottom: 60px;
+	padding-top: 50px;
+	
 	color: white;
 }
 
@@ -218,7 +218,7 @@ a:after {
 #footwrap {
 	background: #2f2f2f;
 	padding-top: 20px;
-	padding-bottom: 20px;
+	padding-bottom: 10px;
 }
 
 #footwrap p {
