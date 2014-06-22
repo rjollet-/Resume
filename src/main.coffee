@@ -7,6 +7,7 @@ express = require 'express'
 debug   = require 'debug'
 cors    = require 'cors'
 Q       = require 'q'
+ejs     = require 'ejs'
 
 {PORT, basicAuth} = require "#{__dirname}/../config"
 
@@ -32,7 +33,7 @@ exports.server = ->
     app.use app.routes
     app.use logger
     app.use errorHandler
-    app.engine('html', require('ejs').renderFile);
+    app.engine('html', ejs.renderFile);
 
     app.get "/CV", (req, res) ->
         res.render "#{__dirname}/CV/index.html",
