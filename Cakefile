@@ -10,7 +10,7 @@ task 'test', 'run: `mocha` or `npm test`', ->
 
 task 'start', 'start the engine', ->
   console.log 'run `DEBUG=server cake start` to see the logs '
-  {server} = require "#{__dirname}/src/main"
+  {server} = require "#{__dirname}/server"
   do server
 
 # task 'stop', 'stop R via Rserve', ->
