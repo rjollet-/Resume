@@ -37,31 +37,8 @@ exports.server = ->
     app.get /.+/, (req, res) ->
         modulePath = "#{__dirname}/../lib#{req.path}"
 
-        f = undefined
+        res.render('index.html', { title: 'My Site' });
 
-        try
-            print "Loading module: #{modulePath}"
-            f = require modulePath
-        catch error
-            print "No such module: #{modulePath}"
-            return res.send 404, {error: 'no such module'}
-
-        if _.isFunction f
-            promise = Q.when f req.query
-
-            promise.fail (err) ->
-                print "Err: #{err}"
-                res.send 500, {error: 'Something blew up'}
-            .done (output) ->
-                print "Responding"
-                if _.isString output
-                    res.set 'Content-Type', 'text/csv'
-                    res.send output
-                else
-                    res.json 200, output
-        else
-            print "Invalid module: #{modulePath}"
-            res.send 500, {error: 'Something blew up'}
 
     # start server
     port = process.env.PORT or PORT or 8000
