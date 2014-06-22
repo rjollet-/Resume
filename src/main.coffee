@@ -32,6 +32,7 @@ exports.server = ->
     app.use app.routes
     app.use logger
     app.use errorHandler
+    app.engine('html', require('ejs').renderFile);
 
     app.get "/CV", (req, res) ->
         res.render "#{__dirname}/CV/index.html",
