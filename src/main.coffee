@@ -34,7 +34,7 @@ exports.server = ->
     app.use errorHandler
 
     app.get "/CV", (req, res) ->
-        res.render "index.html",
+        res.render "#{__dirname}/CV/index.html",
             title: "My Site"
 
 
