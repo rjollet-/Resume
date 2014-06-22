@@ -37,8 +37,12 @@ exports.server = ->
     app.get /.+/, (req, res) ->
         modulePath = "#{__dirname}/../lib#{req.path}"
 
-        res.render('index.html', { title: 'My Site' });
+        try
+            res.render('index.html', { title: 'My Site' });
 
+        catch error
+            print "No such module: #{modulePath}"
+            return res.send 404, {error: 'no such module'}
 
     # start server
     port = process.env.PORT or PORT or 8000
