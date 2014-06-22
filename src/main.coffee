@@ -8,7 +8,7 @@ debug   = require 'debug'
 cors    = require 'cors'
 Q       = require 'q'
 
-#{PORT, basicAuth} = require "#{__dirname}/../config"
+{PORT, basicAuth} = require "#{__dirname}/../config"
 
 print = debug 'server'
 
