@@ -267,7 +267,7 @@ window.Chart = function(context){
 			segmentShowStroke : true,
 			segmentStrokeColor : "#2c3e50",
 			segmentStrokeWidth : 1,
-			percentageInnerCutout : 90,
+			percentageInnerCutout : 70,
 			animation : true,
 			animationSteps : 100,
 			animationEasing : "easeOutBounce",
