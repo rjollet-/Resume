@@ -1,17 +1,10 @@
 {
-  "name": "Resume",
+  "name": "nodeApp",
   "version": "0.0.3",
   "private": true,
   "scripts": {
     "start": "node ./bin/www"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/hden/reporter.git"
-  },
-   "author": "Renaud jollet De Lorenzo <renaudjollet@gmail.com>",
-  "license": "MIT",
-  "readmeFilename": "README.md",
   "dependencies": {
     "express": "~4.2.0",
     "static-favicon": "~1.0.0",
@@ -19,7 +12,6 @@
     "cookie-parser": "~1.0.1",
     "body-parser": "~1.0.0",
     "debug": "~0.7.4",
-    "coffee-script": "~1.7.1",
     "jade": "~1.3.0"
   }
 }
