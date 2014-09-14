@@ -28,6 +28,7 @@ app.use('/', routes);
 app.use('/users', users);
 app.use('/cv', cv);
 app.use('/static', express.static(__dirname + '/public'));
+app.use(robots(./robots.txt + '/robots.txt'))
 
 /// catch 404 and forward to error handler
 app.use(function(req, res, next) {
