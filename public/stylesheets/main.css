@@ -278,7 +278,19 @@ a:after {
 	color: #95a5a6;
 }
 
+.asc t {
+	color: #ecf0f1;
+	font-weight: 700;
+}
+.asc i {
+	color: #ecf0f1;
+	font-size: -webkit-xxx-large;
+}
+
+
+
 
 sm {
 	font-size: 12px;
 }
+
