@@ -153,9 +153,9 @@ a:after {
 
 /* Header Wrap */
 #headerwrap {
-	background: url("../images/header-bg.JPG") no-repeat center top;
-	margin-top: 30px;
-	padding-top:140px;
+	background: url("../images/header1.JPG") no-repeat center top;
+	margin-top: Opx;
+	padding-top:170px;
 	text-align:center;
 	background-attachment: relative;
 	background-position: center center;
@@ -187,8 +187,8 @@ a:after {
 
 #intro {
 	background: DarkSlateGray;
-	padding-top: 60px;
-	padding-bottom: 60px;
+	padding-top: 30px;
+	padding-bottom: 10px;
 	color: white;
 } 
 
@@ -206,7 +206,7 @@ a:after {
 
 #skillswrap {
 	background: DarkSlateGray;
-	padding-top: 50px;
+	padding-top: 30px;
 	
 	color: white;
 }
@@ -256,7 +256,7 @@ a:after {
 /* Global Values */
 
 .desc {
-	padding-top: 50px;
+	padding-top: 30px;
 }
 
 .desc p {
@@ -285,6 +285,9 @@ a:after {
 .asc i {
 	color: #ecf0f1;
 	font-size: 68px;
+}
+.asc more {
+	color: #C6DADA;
 }
 
 
